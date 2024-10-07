@@ -20,7 +20,7 @@ const HomePage = () => {
   useEffect(() => {
     sessionStorage.removeItem('puzzleObj');
     sessionStorage.removeItem('activeGrid');
-    sessionStorage.removeItem('activeGrid');
+    // sessionStorage.removeItem('activeGrid');
     sessionStorage.removeItem("lifeCount");
   }, []);
 
